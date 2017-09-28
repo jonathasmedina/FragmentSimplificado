@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //objeto encontrando o Fragment pelo ID definido no elemento dentro do XML principal (activity_main.xml)
         Fragment1 fragment1 = (Fragment1) fm.findFragmentById(R.id.fragmentElemento);
         Fragment2 fragment2 = (Fragment2) fm.findFragmentById(R.id.fragment2Element);
 
